@@ -1,4 +1,3 @@
-  CartSpec.swift
 
 import Quick
 import Nimble
@@ -49,6 +48,8 @@ class CartSpec: QuickSpec {
             describe("totalPriceInCents()") {
                 it("should return 0 for an empty cart") {
                     let result = emptyCart.totalPriceInCents()
+                    
+                
                     
                     expect(result).to(equal(0))
                 }
